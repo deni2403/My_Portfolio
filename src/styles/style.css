@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&family=Montserrat&family=Open+Sans&family=Oswald&display=swap');
+
+:root {
+    --primary-color: #016A70;
+    --link-color: #454545;
+    --hover-color: rgb(5, 238, 219);
+    --section-color: #F0F0F0;
+    --font--bigTitle: 'Literata', Arial, Helvetica, sans-serif;
+    --font--secondary: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-header__title {
+    padding: 50px;
+    text-align: center;
+}
+
+.section-header__title p {
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    color: #3b3b3b;
+}
+
+
+
+/* Navbar */
+
+.mynavbar {
+    color: white;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo-brand {
+    font-family: var(--font--bigTitle);
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    color: var(--primary-color);
+}
+
+.nav-link {
+    color: var(--link-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: var(--hover-color);
+}
+
+.resume-button {
+    background-color: white;
+    color: var(--link-color);
+    font-size: 1rem;
+    margin-top: -5px;
+    border: 1px solid slategray;
+}
+
+.resume-button:hover {
+    background-color: var(--primary-color);
+}
+
+.navbar-toggler {
+    border: none;
+    color: transparent;
+}
+
+.my-toggler-icon {
+    color: var(--link-color);
+    font-size: 2rem;
+}
+
+.my-toggler-label {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    margin: 1.3rem 0 9.4rem;
+}
+
+.hero-section__name h1 {
+    font-family: var(--font--bigTitle);
+    font-weight: 500;
+}
+
+.hero-section__name span {
+    font-family: var(--font--bigTitle);
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero-section__description p {
+    font-family: var(--font--secondary);
+    font-size: 1.1rem;
+    color: slategray;
+}
+
+.hero-section__image img {
+    height: 60%;
+    width: 60%;
+    background: transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.hero-section__image svg {
+    position: absolute;
+    z-index: -1;
+    scale: 0.6;
+    transform: translate(0px, -10px);
+}
+
+
+
+/* Portfolio Section */
+
+.portfolio-section {
+    background-color: var(--section-color);
+}
+
+.portfolio-section__projects {
+    margin-bottom: 100px;
+}
+
+.card {
+    margin: 1rem 1.5rem 1rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    height: 70%;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: -1rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.portfolio-link svg {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: black;
+}
+
+.portfolio-link svg:hover {
+    scale: 1.2;
+}
+
+.portfolio-tech {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.portfolio-tech__item {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 10%;
+    padding: 5px;
+    margin: 0 16px 10px -12px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+
+
+/* Skills Section */
+
+.skill-section {
+    margin: 1.3rem 0 5.6rem;
+}
+
+.skill-section__tech-img {
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-section__tech img {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+.skill-section__tech img:hover {
+    scale: 1.2;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+/* Contact Section */
+
+.contact-section {
+    background-color: var(--section-color);
+    min-height: 42rem;
+}
+
+.contact-form {
+    margin: 1rem 0;
+}
+
+.contact-form input {
+    margin-bottom: 20px;
+    font-family: var(--font--secondary);
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 0%;
+}
+
+.contact-form textarea {
+    margin-bottom: 20px;
+    font-family: var(--font--secondary);
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 0%;
+    height: 150px;
+}
+
+.contact-form button {
+    margin-bottom: 20px;
+    font-family: var(--font--secondary);
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0%;
+    background-color: #05858b;
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+.footer-navigation h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.footer-navigation ul li {
+    list-style: none;
+    margin-left: -2rem;
+    margin-top: 10px;
+}
+
+.footer-navigation ul li a {
+    color: whitesmoke;
+}
+
+.footer-navigation ul li a:hover {
+    color: var(--hover-color);
+}
+
+.contact-information__icon {
+    display: flex;
+}
+
+.contact-information__icon svg {
+    margin: 10px 25px 0 10px;
+    font-size: 1.5rem;
+    color: #73BBC9;
+}
+
+.contact-information__desc h5 {
+    font-family: var(--font--secondary);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.contact-information__desc p {
+    font-family: var(--font--secondary);
+    font-size: 0.9rem;
+}
+
+.created-by__icon a svg {
+    font-size: 1.6rem;
+    margin: 0 10px 15px;
+    color: white;
+}
+
+.created-by__icon a svg:hover {
+    scale: 1.2;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .nav-link {
+        margin-left: 1rem;
+    }
+
+    .nav-link:hover {
+        margin-left: 1.5rem;
+    }
+
+    .nav-link:focus {
+        margin-left: 1.5rem;
+    }
+}
