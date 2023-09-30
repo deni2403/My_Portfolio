@@ -11,7 +11,7 @@ function HeroDescription() {
       </Container>
       <Container className="hero-section__description mt-3">
         <p>
-          A postgraduate student in Computer Science based in Indonesia with a
+          An undergraduate student in Computer Science based in Indonesia with a
           passion for web development, a keen interest in the latest technology,
           and captivating design. My primary focus is on building responsive and
           engaging web experiences.
