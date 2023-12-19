@@ -11,10 +11,9 @@ function HeroDescription() {
       </Container>
       <Container className="hero-section__description mt-3">
         <p>
-          An undergraduate student in Computer Science based in Indonesia with a
-          passion for web development, a keen interest in the latest technology,
-          and captivating design. My primary focus is on building responsive and
-          engaging web experiences.
+          Passionate Computer Science undergraduate with web development skills
+          seeks opportunity to contribute to dynamic professional team with good
+          problem-solving skills in web development. Dedicated to continuous learning.
         </p>
       </Container>
     </>

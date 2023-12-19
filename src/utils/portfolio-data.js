@@ -1,14 +1,23 @@
 const portfolios = [
-  { 
+  {
+    imgPath: '/portfolio/alza-laundry.png',
+    name: 'Alza Laundry',
+    tech: ['Laravel', 'Javascript', 'Bootstrap 5', 'Fullstack'],
+    github: 'https://github.com/deni2403/Laundry_CMS',
+    liveDemo: 'https://alzalaundry.eudeka.my.id/',
+    description:
+      'A web profile and laundry management application that allows you to manage your laundry business.',
+  },
+  {
     imgPath: '/portfolio/simple-storage.png',
-    name: 'Simple_Storage',
-    tech: ['React.js', 'Express.js', 'Bootstrap', 'Fullstack'],
+    name: 'Simple Storage',
+    tech: ['React.js', 'Express.js', 'Bootstrap 5', 'Fullstack'],
     github: 'https://github.com/deni2403/simple_storage',
     liveDemo: 'https://simple-storage-deni2403.vercel.app/',
     description:
       'A straightforward multi-role dashboard application formanaging items and user accounts.',
   },
-  { 
+  {
     imgPath: '/portfolio/personal-note.png',
     name: 'Personal Note App',
     tech: ['React.js'],
@@ -17,16 +26,7 @@ const portfolios = [
     description:
       'An online personal note application that allows you to login and save your own notes with dark mode.',
   },
-  { 
-    imgPath: '/portfolio/movie-catalogue.png',
-    name: 'Movie Catalogue',
-    tech: ['HTML', 'CSS', 'Javascript'],
-    github: 'https://github.com/deni2403/movie-catalogue',
-    liveDemo: 'https://movie-ctlog.netlify.app/',
-    description:
-      'A movie catalog that you can use to search and find out what is currently playing in cinemas.',
-  },
-  { 
+  {
     imgPath: '/portfolio/sehati-id.png',
     name: 'Sehati-id',
     tech: ['React.js', 'Tailwind', 'Firebase'],
@@ -35,10 +35,19 @@ const portfolios = [
     description:
       'A health forum website that features nutritional and health information along with a food nutrition calculator.',
   },
-  { 
+  {
+    imgPath: '/portfolio/movie-catalogue.png',
+    name: 'Movie Catalogue',
+    tech: ['HTML', 'CSS', 'Javascript'],
+    github: 'https://github.com/deni2403/movie-catalogue',
+    liveDemo: 'https://movie-ctlog.netlify.app/',
+    description:
+      'A movie catalog that you can use to search and find out what is currently playing in cinemas.',
+  },
+  {
     imgPath: '/portfolio/savory-bites.png',
     name: 'Savory Bites',
-    tech: ['HTML', 'CSS', 'Javascript','PWA'],
+    tech: ['HTML', 'CSS', 'Javascript', 'PWA'],
     github: 'https://github.com/deni2403/Savory-Bites',
     liveDemo: 'https://savory-bites-lite.netlify.app/',
     description:
