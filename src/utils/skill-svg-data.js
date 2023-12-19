@@ -12,6 +12,10 @@ const skills = [
     name: 'Javascript',
   },
   {
+    imgPath: '/icons/php.svg',
+    name: 'PHP',
+  },
+  {
     imgPath: '/icons/bootstrap-color.svg',
     name: 'Bootstrap CSS',
   },
@@ -26,6 +30,10 @@ const skills = [
   {
     imgPath: '/icons/express-color.svg',
     name: 'Express.js',
+  },
+  {
+    imgPath: '/icons/laravel.svg',
+    name: 'Laravel',
   },
   {
     imgPath: '/icons/mysql-color.svg',
