@@ -1,5 +1,5 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
+import React from "react";
+import { Container } from "react-bootstrap";
 
 function HeroDescription() {
   return (
@@ -11,9 +11,10 @@ function HeroDescription() {
       </Container>
       <Container className="hero-section__description mt-3">
         <p>
-          Passionate Computer Science undergraduate with web development skills
-          seeks opportunity to contribute to dynamic professional team with good
-          problem-solving skills in web development. Dedicated to continuous learning.
+          Computer Science graduate with a strong passion for web development
+          and problem solving. Eager to contribute to a dynamic professional
+          team, work on real-world projects, and continuously expand my skills
+          in software development.
         </p>
       </Container>
     </>
