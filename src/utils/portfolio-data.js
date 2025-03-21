@@ -1,12 +1,30 @@
 const portfolios = [
   {
-    imgPath: '/portfolio/alza-laundry.png',
-    name: 'Alza Laundry',
-    tech: ['Laravel', 'Javascript', 'Bootstrap 5', 'Fullstack'],
-    github: 'https://github.com/deni2403/Laundry_CMS',
-    liveDemo: 'https://alzalaundry.eudeka.my.id/',
+    imgPath: '/portfolio/authentic-roastery.jpeg',
+    name: 'Authentic Roastery',
+    tech: ['Next.js 14', 'Tailwind CSS'],
+    github: 'https://github.com/deni2403/nusantara-collection-coffee',
+    liveDemo: 'https://www.authentic-roastery.com/',
     description:
-      'A web profile and laundry management application that allows you to manage your laundry business.',
+      'A web profile website for my own coffee business, showcasing the coffee products and the story behind the brand.',
+  },
+  {
+    imgPath: '/portfolio/giant-transport.png',
+    name: 'GTI Container',
+    tech: ['React.js', 'Express.js', 'Postgresql', 'Fullstack' ],
+    github: 'https://github.com/deni2403/GTI-FrontEnd',
+    liveDemo: 'https://gti-front-end.vercel.app/',
+    description:
+      'Dashboard application for managing container shipments and tracking the container status information.',
+  },
+  {
+    imgPath: '/portfolio/academy-archive.png',
+    name: 'Academic Archive',
+    tech: ['Vue.js', 'Laravel', 'Bootstrap 5', 'Fullstack'],
+    github: 'https://github.com/deni2403/College_FrontEnd',
+    liveDemo: 'https://college-front-end.vercel.app',
+    description:
+      'A simple web dashboard for academics that displays summarized academic information, such as lecturer details, courses, and registered students.',
   },
   {
     imgPath: '/portfolio/simple-storage.png',

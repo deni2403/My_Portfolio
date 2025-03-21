@@ -10,7 +10,7 @@ function PortfolioItem({ items }) {
       className="portfolio-section__projects d-flex justify-content-center flex-wrap"
     >
       {items.map((item, index) => (
-        <Card key={index} style={{ height: '26rem', width: '22rem' }}>
+        <Card key={index} style={{ minHeight: '26rem', width: '22rem' }}>
           <Card.Img variant="top" src={item.imgPath} />
           <Card.Body>
             <Container className="d-flex">
